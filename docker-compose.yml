@@ -1,0 +1,38 @@
+version: "3"
+
+services:
+  selenoid:
+    image: aerokube/selenoid:latest-release
+    container_name: selenium
+    network_mode: bridge
+    ports:
+      - "4444:4444"
+    volumes:
+      - "./selenium/config:/etc/selenoid:ro"
+      - "./runtime/selenium.sock:/var/run/docker.sock"
+    command: ["-limit=4", "-capture-driver-logs", "-max-timeout=0h5m0s"]
+
+  selenoid-ui:
+    platform: linux/amd64
+    image: aerokube/selenoid-ui:latest-release
+    container_name: selenium-ui
+    network_mode: bridge
+    ports:
+      - "8080:8080"
+    links:
+      - selenoid
+    depends_on:
+      - selenoid
+    command: ["--selenoid-uri", "http://qa.local:4444"]
+    
+  api:
+    container_name: jmeter
+    image: justb4/jmeter
+    hostname: qa.local
+    ports:
+      - '9999:80'
+    volumes:
+      - "./project/2:/tests"
+      - "./runtime/jmeter.sock:/var/run/docker.sock"
+    build: ./jmeter/config
+    

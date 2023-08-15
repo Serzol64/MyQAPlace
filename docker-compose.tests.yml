@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  tests:
+    platform: linux/amd64
+    image: maven:3.8.7-ibmjava-8
+    container_name: selenium-runtime
+    working_dir: /tests
+    volumes:
+      - ./project/1:/tests/src
+      - ./selenium/pom.xml:/tests/pom.xml
+    network_mode: host
+    command: mvn clean test
+  meter:
+    container_name: jmeter-runtime
+    depends_on:
+      - api
