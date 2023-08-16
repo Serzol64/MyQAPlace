@@ -36,3 +36,12 @@ services:
       - "./runtime/jmeter.sock:/var/run/docker.sock"
     build: ./jmeter/config
     
+  security:
+    container_name: w9scan
+    hostname: qa.local
+    ports:
+      - '7507:80'
+    volumes:
+      - "./runtime/w9scan.sock:/var/run/docker.sock"
+    build: ./w9scan
+    
