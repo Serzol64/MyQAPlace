@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-09-28T07:09:25.080163Z</date>
+  <millis>1695884965080</millis>
+  <nanos>163000</nanos>
+  <sequence>46</sequence>
+  <logger>dev.selenium.troubleshooting.LoggingTest</logger>
+  <level>WARNING</level>
+  <class>dev.selenium.troubleshooting.LoggingTest</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>this is a warning</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.460096Z</date>
+  <millis>1695884965460</millis>
+  <nanos>96000</nanos>
+  <sequence>90</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>47</thread>
+  <message>Polling http://localhost:9902/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.460121Z</date>
+  <millis>1695884965460</millis>
+  <nanos>121000</nanos>
+  <sequence>91</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>137</thread>
+  <message>Polling http://localhost:1583/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.460030Z</date>
+  <millis>1695884965460</millis>
+  <nanos>30000</nanos>
+  <sequence>89</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>29</thread>
+  <message>Polling http://localhost:20135/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.442873Z</date>
+  <millis>1695884965442</millis>
+  <nanos>873000</nanos>
+  <sequence>88</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>335</thread>
+  <message>Polling http://localhost:1234/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.442228Z</date>
+  <millis>1695884965442</millis>
+  <nanos>228000</nanos>
+  <sequence>87</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>236</thread>
+  <message>Polling http://localhost:19939/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.441762Z</date>
+  <millis>1695884965441</millis>
+  <nanos>762000</nanos>
+  <sequence>86</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>209</thread>
+  <message>Polling http://localhost:24214/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.440620Z</date>
+  <millis>1695884965440</millis>
+  <nanos>620000</nanos>
+  <sequence>84</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>407</thread>
+  <message>Polling http://localhost:13804/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.441009Z</date>
+  <millis>1695884965441</millis>
+  <nanos>9000</nanos>
+  <sequence>85</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>110</thread>
+  <message>Polling http://localhost:21974/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.438239Z</date>
+  <millis>1695884965438</millis>
+  <nanos>239000</nanos>
+  <sequence>80</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>254</thread>
+  <message>Polling http://localhost:27623/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.439912Z</date>
+  <millis>1695884965439</millis>
+  <nanos>912000</nanos>
+  <sequence>83</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>308</thread>
+  <message>Polling http://localhost:12584/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.439109Z</date>
+  <millis>1695884965439</millis>
+  <nanos>109000</nanos>
+  <sequence>82</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>65</thread>
+  <message>Polling http://localhost:24448/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.438607Z</date>
+  <millis>1695884965438</millis>
+  <nanos>607000</nanos>
+  <sequence>81</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>182</thread>
+  <message>Polling http://localhost:13485/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.437504Z</date>
+  <millis>1695884965437</millis>
+  <nanos>504000</nanos>
+  <sequence>79</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>353</thread>
+  <message>Polling http://localhost:10544/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.436681Z</date>
+  <millis>1695884965436</millis>
+  <nanos>681000</nanos>
+  <sequence>78</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>155</thread>
+  <message>Polling http://localhost:17942/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.434714Z</date>
+  <millis>1695884965434</millis>
+  <nanos>714000</nanos>
+  <sequence>76</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>38</thread>
+  <message>Polling http://localhost:21062/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.435551Z</date>
+  <millis>1695884965435</millis>
+  <nanos>551000</nanos>
+  <sequence>77</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>326</thread>
+  <message>Polling http://localhost:9307/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.433036Z</date>
+  <millis>1695884965433</millis>
+  <nanos>36000</nanos>
+  <sequence>73</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>83</thread>
+  <message>Polling http://localhost:11585/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.433707Z</date>
+  <millis>1695884965433</millis>
+  <nanos>707000</nanos>
+  <sequence>74</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>128</thread>
+  <message>Polling http://localhost:20237/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.434221Z</date>
+  <millis>1695884965434</millis>
+  <nanos>221000</nanos>
+  <sequence>75</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>227</thread>
+  <message>Polling http://localhost:32630/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.430152Z</date>
+  <millis>1695884965430</millis>
+  <nanos>152000</nanos>
+  <sequence>68</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>92</thread>
+  <message>Polling http://localhost:23250/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.430035Z</date>
+  <millis>1695884965430</millis>
+  <nanos>35000</nanos>
+  <sequence>67</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>263</thread>
+  <message>Polling http://localhost:15845/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.431158Z</date>
+  <millis>1695884965431</millis>
+  <nanos>158000</nanos>
+  <sequence>70</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>164</thread>
+  <message>Polling http://localhost:9041/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.430669Z</date>
+  <millis>1695884965430</millis>
+  <nanos>669000</nanos>
+  <sequence>69</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>362</thread>
+  <message>Polling http://localhost:26547/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.432104Z</date>
+  <millis>1695884965432</millis>
+  <nanos>104000</nanos>
+  <sequence>72</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>281</thread>
+  <message>Polling http://localhost:22823/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.431661Z</date>
+  <millis>1695884965431</millis>
+  <nanos>661000</nanos>
+  <sequence>71</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>380</thread>
+  <message>Polling http://localhost:8984/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.428088Z</date>
+  <millis>1695884965428</millis>
+  <nanos>88000</nanos>
+  <sequence>66</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>191</thread>
+  <message>Polling http://localhost:29913/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.426468Z</date>
+  <millis>1695884965426</millis>
+  <nanos>468000</nanos>
+  <sequence>63</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>74</thread>
+  <message>Polling http://localhost:8884/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.427554Z</date>
+  <millis>1695884965427</millis>
+  <nanos>554000</nanos>
+  <sequence>65</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>290</thread>
+  <message>Polling http://localhost:24468/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.426907Z</date>
+  <millis>1695884965426</millis>
+  <nanos>907000</nanos>
+  <sequence>64</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>389</thread>
+  <message>Polling http://localhost:5898/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.421032Z</date>
+  <millis>1695884965421</millis>
+  <nanos>32000</nanos>
+  <sequence>62</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>119</thread>
+  <message>Polling http://localhost:14486/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.420094Z</date>
+  <millis>1695884965420</millis>
+  <nanos>94000</nanos>
+  <sequence>61</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>218</thread>
+  <message>Polling http://localhost:17231/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.418600Z</date>
+  <millis>1695884965418</millis>
+  <nanos>600000</nanos>
+  <sequence>59</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>146</thread>
+  <message>Polling http://localhost:18371/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.419423Z</date>
+  <millis>1695884965419</millis>
+  <nanos>423000</nanos>
+  <sequence>60</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>317</thread>
+  <message>Polling http://localhost:20978/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.417095Z</date>
+  <millis>1695884965417</millis>
+  <nanos>95000</nanos>
+  <sequence>57</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>344</thread>
+  <message>Polling http://localhost:15212/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.417576Z</date>
+  <millis>1695884965417</millis>
+  <nanos>576000</nanos>
+  <sequence>58</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>245</thread>
+  <message>Polling http://localhost:19491/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.416248Z</date>
+  <millis>1695884965416</millis>
+  <nanos>248000</nanos>
+  <sequence>56</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>173</thread>
+  <message>Polling http://localhost:31969/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.415227Z</date>
+  <millis>1695884965415</millis>
+  <nanos>227000</nanos>
+  <sequence>55</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>272</thread>
+  <message>Polling http://localhost:24211/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.414295Z</date>
+  <millis>1695884965414</millis>
+  <nanos>295000</nanos>
+  <sequence>54</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>371</thread>
+  <message>Polling http://localhost:9598/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.414015Z</date>
+  <millis>1695884965414</millis>
+  <nanos>15000</nanos>
+  <sequence>53</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>299</thread>
+  <message>Polling http://localhost:7825/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.412907Z</date>
+  <millis>1695884965412</millis>
+  <nanos>907000</nanos>
+  <sequence>52</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>101</thread>
+  <message>Polling http://localhost:13909/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.412730Z</date>
+  <millis>1695884965412</millis>
+  <nanos>730000</nanos>
+  <sequence>51</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>398</thread>
+  <message>Polling http://localhost:8521/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.410741Z</date>
+  <millis>1695884965410</millis>
+  <nanos>741000</nanos>
+  <sequence>50</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>200</thread>
+  <message>Polling http://localhost:31937/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.410034Z</date>
+  <millis>1695884965410</millis>
+  <nanos>34000</nanos>
+  <sequence>49</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>56</thread>
+  <message>Polling http://localhost:23129/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.276019Z</date>
+  <millis>1695884965276</millis>
+  <nanos>19000</nanos>
+  <sequence>48</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>416</thread>
+  <message>Polling http://localhost:11521/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.106410Z</date>
+  <millis>1695884965106</millis>
+  <nanos>410000</nanos>
+  <sequence>47</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>425</thread>
+  <message>Polling http://localhost:9497/status</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.499529Z</date>
+  <millis>1695884965499</millis>
+  <nanos>529000</nanos>
+  <sequence>92</sequence>
+  <logger>dev.selenium.troubleshooting.LoggingTest</logger>
+  <level>INFO</level>
+  <class>dev.selenium.troubleshooting.LoggingTest</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>this is useful information</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.516058Z</date>
+  <millis>1695884965516</millis>
+  <nanos>58000</nanos>
+  <sequence>93</sequence>
+  <logger>dev.selenium.troubleshooting.LoggingTest</logger>
+  <level>FINE</level>
+  <class>dev.selenium.troubleshooting.LoggingTest</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>this is detailed debug information</message>
+</record>
+<record>
+  <date>2023-09-28T07:09:25.556268Z</date>
+  <millis>1695884965556</millis>
+  <nanos>268000</nanos>
+  <sequence>94</sequence>
+  <logger>org.openqa.selenium.net.UrlChecker</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.net.UrlChecker</class>
+  <method>lambda$waitUntilAvailable$1</method>
+  <thread>425</thread>
+  <message>Polling http://localhost:9497/status</message>
+</record>
+</log>

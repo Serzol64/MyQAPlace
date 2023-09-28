@@ -1,47 +1,39 @@
 version: "3"
-
 services:
-  selenoid:
-    image: aerokube/selenoid:latest-release
-    container_name: selenium
-    network_mode: bridge
-    ports:
-      - "4444:4444"
+  firefox:
+    image: selenium/node-firefox
     volumes:
-      - "./selenium/config:/etc/selenoid:ro"
-      - "./runtime/selenium.sock:/var/run/docker.sock"
-    command: ["-limit=4", "-capture-driver-logs", "-max-timeout=0h5m0s"]
-
-  selenoid-ui:
-    platform: linux/amd64
-    image: aerokube/selenoid-ui:latest-release
-    container_name: selenium-ui
-    network_mode: bridge
-    ports:
-      - "8080:8080"
-    links:
-      - selenoid
+      - ./selenium/config/firefox:/dev/shm
     depends_on:
-      - selenoid
-    command: ["--selenoid-uri", "http://qa.local:4444"]
-    
-  api:
-    container_name: jmeter
-    image: justb4/jmeter
+      - selenium
+    environment:
+      HUB_HOST: selenium
+    deploy:
+      replicas: 5
+  chrome:
+    image: selenium/node-chrome
+    volumes:
+      - ./selenium/config/chrome:/dev/shm
+    depends_on:
+      - selenium
+    environment:
+      HUB_HOST: selenium
+    deploy:
+      replicas: 5
+  selenium:
+    image: selenium/hub
+    container_name: selenium
     hostname: qa.local
     ports:
-      - '9999:80'
+      - 4444:4444
     volumes:
-      - "./project/2:/tests"
-      - "./runtime/jmeter.sock:/var/run/docker.sock"
-    build: ./jmeter/config
-    
+      - ./runtime/selenium.sock:/var/run/docker.sock
+      - ./project/1:/test
   security:
     container_name: w9scan
     hostname: qa.local
     ports:
-      - '7507:80'
+      - 7507:80
     volumes:
-      - "./runtime/w9scan.sock:/var/run/docker.sock"
+      - ./runtime/w9scan.sock:/var/run/docker.sock
     build: ./w9scan
-    

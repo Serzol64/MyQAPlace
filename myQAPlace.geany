@@ -27,12 +27,10 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=1
-FILE_NAME_0=1255;None;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2FmyProjects%2FmyQAPlace%2Fjmeter%2Fconfig%2FDockerfile;0;4
-FILE_NAME_1=991;YAML;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2FmyProjects%2FmyQAPlace%2Fdocker-compose.yml;0;4
-FILE_NAME_2=259;None;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2FmyProjects%2FmyQAPlace%2Fw9scan%2FDockerfile;0;4
-FILE_NAME_3=0;Sh;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2FmyProjects%2FmyQAPlace%2Fjmeter%2Fconfig%2Fentrypoint.sh;0;4
-FILE_NAME_4=323;JSON;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2FmyProjects%2FmyQAPlace%2Fselenium%2Fconfig%2Fbrowsers.json;0;4
+current_page=0
+FILE_NAME_0=638;YAML;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2FmyProjects%2FmyQAPlace%2Fdocker-compose.yml;0;4
+FILE_NAME_1=0;XML;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2FmyProjects%2FmyQAPlace%2Fproject%2F1%2Fpom.xml;0;4
+FILE_NAME_2=0;Java;0;EUTF-8;1;1;0;%2Fhome%2Fsergey%2FРабочий%20стол%2FSergey%2FmyProjects%2FmyQAPlace%2Fproject%2F1%2Fsrc%2Ftest%2Fjava%2Fdev%2Fselenium%2FBaseTest.java;0;4
 
 [VTE]
 last_dir=/home/sergey/Рабочий стол/Sergey/myProjects/myQAPlace
